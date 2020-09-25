@@ -1,0 +1,82 @@
+@font-face {
+	src: url(../Ranchers/Ranchers.ttf);
+	font-family: 'Ranchers', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.page{
+	width: 1440px;
+	height: 2427px;
+}
+
+.header{
+	width: 1440px;
+	height: 200px;
+	background-color:rgb(255,255, 0 );
+}
+
+.h1{
+	font-family: 'Ranchers', cursive;
+	font-size: 100px;
+	line-height: 200px;
+	padding-left: 80px;
+}
+
+
+.img{
+	width: 1440px;
+	height: 1080px;
+}
+
+.homeworks{
+	width: 1440px;
+	height: 100px;
+	background-color:rgb(255,255, 0 );
+	font-family:'Ranchers';
+	font-size: 25px;
+	font-style: cursive;
+	line-height: 100px;
+	letter-spacing: 0em;
+	padding-left: 80px;
+}
+
+
+.bio{
+	height: 637px;
+	width: 1280px;
+	padding-left: 80px;
+	padding-bottom: 300px;
+
+}
+
+.h2{
+	font-family: 'Ranchers';
+	font-size: 80px;
+	font-style: cursive;
+	padding-top: 80px;
+
+}
+
+.maintext{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	line-height: 57px;
+	font-style: normal;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.footer{
+	height: 200px;
+	width: 1440px;
+	background-color:rgb(255,255, 0 );
+}
+
+.logo{
+	height: 46px;
+	width: 205px;
+	padding-left: 80px;
+	padding-top: 80px;
+}

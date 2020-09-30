@@ -7,11 +7,9 @@
 
 .page{
 	width: 1440px;
-	height: 2427px;
 }
 
 .header{
-	width: 1440px;
 	height: 200px;
 	background-color:rgb(255,255, 0 );
 }
@@ -25,12 +23,14 @@
 
 
 .img{
-	width: 1440px;
 	height: 1080px;
 }
 
+.image{
+	font-size: 0px;
+}
+
 .homeworks{
-	width: 1440px;
 	height: 100px;
 	background-color:rgb(255,255, 0 );
 }
@@ -73,7 +73,6 @@
 
 .footer{
 	height: 200px;
-	width: 1440px;
 	background-color:rgb(255,255, 0 );
 }
 

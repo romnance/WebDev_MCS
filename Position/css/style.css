@@ -1,83 +1,93 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+:root {
+      --red:#FE1A19;
+      --blue:solid blue;
+}
+
+body {
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 2rem;
     color:white;
     font-style: normal;
     font-weight: 700;
-    line-height: 23px;
+    line-height: 2.3rem;
     letter-spacing: 0em;
     text-align: left;
 }
 
-
 ul {
     list-style-type: none; 
     padding-left: 0;
-    margin-top: -46px;
    }   
 
 .header {
-  height: 60px;
-  background-color: #FE1A19;
+  height: 6rem;
+  background-color: var(--red);
 }
 
 .h1 {
-  font-size: 20px;
-  padding:20px;
+  font-size: 2rem;
+  padding:2rem;
 }
 
 .columns {
   text-align: center;
-  margin-top: 52px;
+  margin-top: 5.2rem;
 }
 
 .column {
-  width: 400px;
-  border: 4px solid blue;
-  border-radius: 25px;
+  width: 40rem;
+  border: .4rem var(--blue);
+  border-radius: 2.5rem;
   display: inline-block;
-  padding: 33px;
+  padding: 3.3rem;
 }
 
 
 .h2{
   color: black;
   text-align: left;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
  
 .ul, .h6 {
   font-family: Times New Roman;
   color: black;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   text-align: left;
 }
 
 .h6 {
-  margin-top: 18px;
+  margin-top: 1.8rem;
 }
 
 .second, .third {
-  margin-left: 50px;
+  margin-left: 5rem;
 }
 
 .footercontainer {
-  height: 60px;
-  margin-top: 52px;
+  height: 6rem;
+  margin-top: 5.2rem;
 }
 
 .footer {
-  height: 60px;
-  background-color: #FE1A19;
+  height: 6rem;
+  background-color: var(--red);
 }
 
 .h3 {
   font-weight: bold;
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
 }

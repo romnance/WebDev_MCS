@@ -1,7 +1,22 @@
-
-.page {
-  width: 1440px;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 20px;
+    color:white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
 }
+
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+   }   
 
 .header {
   height: 60px;
@@ -9,15 +24,8 @@
 }
 
 .h1 {
-font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
-color:white;
-padding:20px;
+  font-size: 20px;
+  padding:20px;
 }
 
 .columns {
@@ -28,7 +36,6 @@ padding:20px;
 .column {
   width: 400px;
   border: 4px solid blue;
-  box-sizing: border-box;
   border-radius: 25px;
   display: inline-block;
   padding: 33px;
@@ -36,23 +43,17 @@ padding:20px;
 
 
 .h2{
-  font-family: Helvetica;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 23px;
-  letter-spacing: 0em;
+  color: black;
   text-align: left;
+  font-size: 20px;
 }
 
  
 .ul, .h6 {
   font-family: Times New Roman;
+  color: black;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -75,10 +76,7 @@ padding:20px;
 }
 
 .h3 {
-  font-family: Helvetica;
-  font-style: normal;
   font-weight: bold;
-  font-size: 20px;
   padding: 20px;
-  color: white;
+  font-size: 20px;
 }

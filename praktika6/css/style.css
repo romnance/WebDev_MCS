@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-family: Arial;
+    color:rgba(229, 0, 67, 1);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+ 
+.header {
+  position: fixed;
+  z-index: 1000;
+  height: 14rem;
+  width:100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.h1 {
+  height: 4rem;
+  width:12rem;
+  font-weight: normal;
+  color:rgba(229, 0, 67, 1);
+  font-size: 5rem;
+  line-height: 5.7rem;
+  margin-left: 5rem;
+}
+
+  a  {
+    text-decoration: none;
+    color:rgba(229, 0, 67, 1);
+  }
+
+  .link1, .link2, .link3 {
+      height: 4rem;
+      width: 13rem;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5rem;
+      line-height: 5.7rem;
+  }
+
+  .link1 {
+    margin-left: 78rem;
+  }
+
+  .link2 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+.imgcontainer {
+  margin-top: 14rem;
+  position:relative;
+}
+
+.img {
+    height: 95rem;
+    margin-bottom: 14rem;
+  }
+
+  .h2 {
+    top: 14rem;
+    left: 22rem;
+    position: absolute;
+    display: flex;
+    font-size: 10rem;
+    font-style:normal;
+    font-weight: normal;
+    line-height: 70rem;
+    text-align: center;
+  }
+
+  .mainbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textbox {
+      width: 104rem;
+      height: 28rem;
+      border: .3rem solid #F8BFC7;
+      border-radius: 2rem;
+      color: black;
+      display: flex;
+      margin-left: 20.1rem;
+  }
+
+  .textbox p   { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.05em;
+    margin: 2.4rem; 
+  }
+
+  .bottlescontainer {
+    margin-top: 14rem;
+    margin-left:18rem;
+    margin-bottom: 14rem;
+    width: 104.3rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottle2 {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+
+  .bottle1 .bottle2 .bottle3 {
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    margin-top:4.8rem;
+    height: 58px;
+    font-size: 2.5rem;
+    font-style:normal;
+    font-weight: 400;
+    line-height: 2.9rem;
+    color: black;
+    font-family: Arial;
+    text-align:center;
+  }
+
+  .eviansmall {
+  margin:3rem 8rem;
+}
+
+.eviansmall img {
+    width: 10.1rem;
+    height: 22rem;
+}
+
+ul{
+  list-style-type: none;
+  margin-left:2.3rem;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  color: black;
+}
+
+
+
+  .footercontainer {
+    margin-top:14rem;
+    height: 14rem;
+    background: rgba(248, 191, 199, 1);
+    display: flex;
+
+  }
+
+  .footer {
+    width: 33rem;
+    height: 4rem;
+    margin:5rem;
+  }
+
+  .h3 {
+      width: 33rem;
+      height: 4rem;
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 5.7rem;
+      letter-spacing: 0em;
+      color: white;
+  }
+

@@ -18,7 +18,6 @@ body {
  
 .header {
   position: fixed;
-  z-index: 1000;
   height: 14rem;
   width:100%;
   background-color: white;
@@ -48,42 +47,39 @@ body {
       font-weight: normal;
       font-size: 5rem;
       line-height: 5.7rem;
+      justify-content: space-between;
+      flex-grow:0.02;
   }
 
   .link1 {
-    margin-left: 78rem;
+    margin-left: auto; 
   }
 
-  .link2 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
 
 .imgcontainer {
   margin-top: 14rem;
-  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img {
     height: 95rem;
-    margin-bottom: 14rem;
   }
 
   .h2 {
-    top: 14rem;
-    left: 22rem;
-    position: absolute;
-    display: flex;
+    margin:auto;
     font-size: 10rem;
     font-style:normal;
     font-weight: normal;
     line-height: 70rem;
-    text-align: center;
+    position: absolute;
   }
 
   .mainbody {
     display: flex;
     flex-direction: column;
+
   }
 
   .textbox {
@@ -93,7 +89,7 @@ body {
       border-radius: 2rem;
       color: black;
       display: flex;
-      margin-left: 20.1rem;
+      margin: 10rem auto;
   }
 
   .textbox p   { 
@@ -106,9 +102,7 @@ body {
   }
 
   .bottlescontainer {
-    margin-top: 14rem;
-    margin-left:18rem;
-    margin-bottom: 14rem;
+    margin: 10rem auto;
     width: 104.3rem;
     display: flex;
     flex-direction: row;
@@ -156,7 +150,6 @@ ul{
 
 
   .footercontainer {
-    margin-top:14rem;
     height: 14rem;
     background: rgba(248, 191, 199, 1);
     display: flex;

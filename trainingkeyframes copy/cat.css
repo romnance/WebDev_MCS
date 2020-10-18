@@ -1,0 +1,52 @@
+.container {
+	cursor: pointer;
+	width: 400px; 
+	position: relative;
+	display: flex;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.placeholder {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	color:yellow;
+	background-color:rgba(0, 0, 0, 0.3);
+	opacity: 0;
+	transition: opacity 0.3s linear;
+}
+
+.placeholder p{
+	padding-left: 23px;
+	font-family:arial; 
+	font-weight: 800;
+}
+
+.container:hover .placeholder {
+	opacity: 1;
+}
+
+.container2 {
+	cursor: pointer;
+	width: 400px;
+	position: relative;
+	display: flex;
+}
+
+.placeholder2 h2 {
+	padding-left: 60px;
+	width: 100%;
+	color:green;
+	font-family: arial;
+}
+
+.container2:hover .placeholder2{
+	transform: scaleX(1.5);
+	transition-duration: 0.5s;
+}

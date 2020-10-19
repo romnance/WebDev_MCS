@@ -58,9 +58,12 @@ body {
 
 .imgcontainer {
   margin-top: 14rem;
+  height: 95rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../img/evianlogo.jpeg);
+  background-size: cover;
 }
 
 .img {
@@ -73,7 +76,6 @@ body {
     font-style:normal;
     font-weight: normal;
     line-height: 70rem;
-    position: absolute;
   }
 
   .mainbody {

@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size:10px;
 }
 
 body {
@@ -60,7 +60,6 @@ body {
 }
 
   .h2 {
-    margin:auto;
     font-size: 10rem;
     font-style:normal;
     font-weight: normal;
@@ -99,11 +98,11 @@ body {
   }
 
   .bottle1 .bottle2 .bottle3 {
-    display: flex;
     align-items: center;
   } 
 
-  .pic1 .pic2 .pic3 {
+
+  .pic1 .pic2 .pic3 img {
     width: 28.1rem;
     height: 86.3rem;
   }

@@ -23,15 +23,12 @@ body {
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .h1 {
-  height: 4rem;
-  width:12rem;
   font-weight: normal;
-  color:rgba(229, 0, 67, 1);
   font-size: 5rem;
-  line-height: 5.7rem;
   margin-left: 5rem;
 }
 
@@ -40,19 +37,15 @@ body {
     color:rgba(229, 0, 67, 1);
   }
 
-  .link1, .link2, .link3 {
-      height: 4rem;
-      width: 13rem;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 5rem;
-      line-height: 5.7rem;
-      justify-content: space-between;
-      flex-grow:0.02;
-  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    margin-right:5rem;
+  } 
 
-  .link1 {
-    margin-left: auto; 
+  .link1, .link2, .link3 {
+      font-size: 5rem;
+      margin: 2rem;
   }
 
 
@@ -82,7 +75,6 @@ body {
 
   .textbox {
       width: 104rem;
-      height: 28rem;
       border: .3rem solid #F8BFC7;
       border-radius: 2rem;
       color: black;
@@ -103,17 +95,17 @@ body {
     margin: 10rem auto;
     width: 104.3rem;
     display: flex;
-    flex-direction: row;
-  }
-
-  .bottle2 {
-    margin-right: 10rem;
-    margin-left: 10rem;
+    justify-content: space-between;
   }
 
   .bottle1 .bottle2 .bottle3 {
     display: flex;
     align-items: center;
+  } 
+
+  .pic1 .pic2 .pic3 {
+    width: 28.1rem;
+    height: 86.3rem;
   }
 
   .text {

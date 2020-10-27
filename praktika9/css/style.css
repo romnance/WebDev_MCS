@@ -39,7 +39,7 @@
 	margin: 20px;
 }
 
-h2 {
+p {
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
@@ -58,7 +58,7 @@ h2 {
 		margin: 10px;
 }
 
-	h2 {
+	p {
 		font-family: Helvetica;
 		font-style: normal;
 		font-weight: bold;
@@ -72,10 +72,6 @@ h2 {
 		justify-content: center;
 		align-content: center;
 		flex-wrap: wrap;
-	}
-
-	.column1, .column2 {
-		flex-direction: column;
 	}
 	
 }

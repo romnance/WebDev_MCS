@@ -1,0 +1,156 @@
+.header {
+	height: 80px;
+	width:100vw;
+	background-color:rgba(248, 191, 199, 1); 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	margin-left:50px;
+}
+  
+  .link1, .link2, .link3 {
+  	  font-family: Helvetica;
+	  font-style: normal;
+	  font-weight: bold;
+      font-size: 20px;
+      margin: 20px;
+      text-transform: uppercase;
+  }
+
+  .menu {
+  	    font-family: Helvetica;
+	    font-style: normal;
+	    font-weight: bold;
+  		font-size:20px;
+  		text-transform: uppercase;
+  		margin-right: 50px;
+  }
+
+  a {
+  	color: black;
+  	text-decoration: none;
+  }
+
+  .background {
+  	display: flex;
+  	width: 100vw;
+  	background-image: url(../img/background.png);
+  	background-size: cover;
+  }
+
+ .block {
+ 	display: flex;
+ 	background-color:rgb(51, 111, 209);
+ 	height: 150px;
+ 	justify-content: center;
+ }
+
+h1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: #FEB700;
+	margin-top:30px;
+}
+
+.footer {
+	height: 80px;
+	width: 100vw;
+	display: flex;
+	background-color:rgba(248, 191, 199, 1);
+	align-items: center;
+	justify-content: space-between;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color:white;
+}
+
+.left{
+	margin-left: 50px;
+}
+
+.right {
+	margin-right: 50px;
+}
+
+.formcard {
+	display: flex;
+	margin-left: 90px;
+	margin-top: 90px;
+	width: 300px;
+	height: 362px;
+	background-color: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+label, input {
+	display: block;
+	margin-left:25px;
+	margin-top: 15px;
+}
+
+label {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+}
+
+input[type="text"], input[type="email"] {
+  	border-width: 0;
+  	outline: none;
+  	border-bottom: 1px solid #FFFFFF;
+  	width: 100%;
+  	background-color:#F8BFC7;
+}
+
+input[placeholder="Настя"], input[placeholder="Санкт-Петербург"], input[placeholder="Наушники с шумоподавлением"], input[placeholder="daykiller@gmail.com"] {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	color:#FFFFFF;
+}  	
+
+.buttonform {
+	display: flex;
+	margin-left:132px;
+	margin-top: 15px;
+	width: 200px;
+	height: 60px;
+	background-color: #FEB700;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+button {
+	margin:auto;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	border-width: 0;
+  	outline: none;
+  	background-color: #FEB700;
+  	color:white;
+  	cursor:pointer;
+}
+

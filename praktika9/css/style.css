@@ -58,7 +58,67 @@ p {
 	text-align: center;
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 700px) {
+	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+		height: 16.5rem;
+		width: 33rem;
+		border: 0.5rem solid #000000;
+		display: flex;
+		align-items: center;
+		margin: 1rem;
+}
+
+	p {
+		font-size: 2.5rem;
+		line-height: 2.9rem;
+		text-align: center;
+	}
+
+	.rectangles {
+		display: flex;
+		align-content:center;
+		justify-content: center;
+	}
+
+	.row1, .row2 {
+		display: flex;
+		flex-direction: row;
+  		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 950px) {
+	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+		height: 23rem;
+		width: 46rem;
+		border: 0.5rem solid #000000;
+		display: flex;
+		align-items: center;
+		margin: 1rem;
+}
+
+	p {
+		font-size: 3.5rem;
+		line-height: 4rem;
+		text-align: center;
+	}
+
+	.rectangles {
+		display: flex;
+		align-content:center;
+		justify-content: center;
+	}
+
+	.row1, .row2 {
+		display: flex;
+		flex-direction: row;
+  		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
 	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
 		height: 30rem;
 		width: 60rem;
@@ -71,6 +131,66 @@ p {
 	p {
 		font-size: 5rem;
 		line-height: 5.7rem;
+		text-align: center;
+	}
+
+	.rectangles {
+		display: flex;
+		align-content:center;
+		justify-content: center;
+	}
+
+	.row1, .row2 {
+		display: flex;
+		flex-direction: row;
+  		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 1530px) {
+	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+		height: 36rem;
+		width: 72rem;
+		border: 0.5rem solid #000000;
+		display: flex;
+		align-items: center;
+		margin: 1rem;
+}
+
+	p {
+		font-size: 6rem;
+		line-height: 6.84rem;
+		text-align: center;
+	}
+
+	.rectangles {
+		display: flex;
+		align-content:center;
+		justify-content: center;
+	}
+
+	.row1, .row2 {
+		display: flex;
+		flex-direction: row;
+  		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 1904px) {
+	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+		height: 45rem;
+		width: 90rem;
+		border: 0.5rem solid #000000;
+		display: flex;
+		align-items: center;
+		margin: 1rem;
+}
+
+	p {
+		font-size: 7.5rem;
+		line-height: 8.55rem;
 		text-align: center;
 	}
 

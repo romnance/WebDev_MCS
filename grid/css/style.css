@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+
+
+/*=== Logo ===*/
+.logo h1 {
+  margin: 0;
+}
+
+.logo__link {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+/*=== End logo ===*/
+
+
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.main-menu__item {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.main-menu__item a {
+  color: #324759;
+  text-decoration: none;
+}
+
+.main-menu__item a:hover {
+  text-decoration: underline;
+  color: #657A8C;
+}
+
+.contacts {
+  border: 1px solid #657A8C;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.contacts h3 {
+  margin-top: 0;
+}
+
+.contacts-menu {
+  padding: 0;
+}
+
+.contacts-menu__item {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+.contacts-menu__item a {
+  color: #8C764D;
+}
+
+.contacts-menu__item a:hover {
+  color: #BFB26F;
+}
+
+.content-area h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.content-area h4 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.content-area p {
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+
+.contact-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+label, input, textarea {
+  display: block;
+  margin: .5rem;
+}
+
+ label {
+  font-size: 1.2rem;
+  color: #8C764D;
+ }
+
+
+.personalfaq {
+  margin-top: 1rem;
+  border: 1px solid #657A8C;
+  border-radius: 1rem;
+}
+
+input[type="text"], input[type="email"] {
+    border-width: 0;
+    outline: none;
+    border-bottom: 1px solid #8C764D;
+    width: 90%;
+    background-color:#F2F2F2;
+
+}
+
+input[type="submit"] {
+  margin-top: .5rem;
+  font-weight:bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #8C764D;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+

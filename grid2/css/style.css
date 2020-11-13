@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: Roboto, Goldman;
+}
+
+body {
+  background-color:black;
+  color:white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+   }
+
+   a:hover {
+    text-decoration: underline;
+   }
+
+   li {
+    list-style-type: none;
+   }
+
+.header{
+  display: flex;
+  align-items: center;
+  margin-left:4rem;
+}
+
+.name {
+  font-family:Goldman;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.menu ul {
+  display: flex;
+  font-size: 3rem;
+}
+
+.menuitem {
+  font-family: Goldman;
+  margin-right: 4rem;
+}
+
+.figure img {
+    max-width:18rem;
+}
+
+.figcaption {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-family: Goldman;
+  font-weight: 400;
+  font-size:1.6rem;
+  line-height: 2.4rem;
+}
+
+h3{
+  font-family: Goldman;
+  font-weight: 400;
+  font-size:2rem;
+  margin:0 5rem;
+  text-align: right;
+}
+
+h4{
+  font-family: Goldman;
+  font-weight: 400;
+  font-size:2rem;
+  color:white;
+  margin-bottom: 1.5rem;
+}
+
+.inspiration {
+  margin-left: 4rem;
+}
+
+.insp a{
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0.2rem;
+  padding: 0.8rem 1.5rem;
+  transition: 0.4s ease-in-out;
+  color: #E7E5DD;
+  border-radius: 1rem;
+  border: 2px solid #E7E5DD;
+}
+
+
+
+ .insp a:hover {
+  color: #BDB9AB;
+  background: #E7E5DD;
+}
+
+ .insp a {
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem;
+  font-weight: bold;
+ 
+}
+
+ .insp a:hover {
+  padding-left: 1rem; 
+  padding-right: 1rem;
+  color: #BDB9AB;
+}
+
+h2{
+  font-family: Goldman;
+  font-size: 4rem;
+}
+
+p{
+  font-size: 3.5rem;
+  line-height: 5rem;
+  margin-bottom: 3rem;
+}
+
+.spotifycontainer img {
+  max-width: 30rem;
+  margin: 0.5rem;
+  transition: 0.4s ease-in-out;
+}
+
+.spotifycontainer img:hover {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+
+.footer {
+  background: rgb(26,26,224);
+background: linear-gradient(0deg, rgba(26,26,224,1) 27%, rgba(0,0,0,1) 100%);
+  display: flex;
+  margin-top: 3rem;
+  width: 100vw;
+  height: 7vh;
+}
+
+h5{
+  align-self: center;
+  font-weight: 400;
+  padding-left:4rem;
+  font-size: 1.8rem;
+}

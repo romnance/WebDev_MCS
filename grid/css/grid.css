@@ -1,13 +1,14 @@
 .container {
   display: grid;
   margin: 0 5rem;
-  grid-template-columns: 3fr 5fr 2fr 2fr;
+  grid-template-columns: 3fr 7fr 2fr;
   grid-template-rows: 5rem;
   grid-gap: 2rem 1rem;
   grid-template-areas:
-    "logo logo menu menu"
-    "offer content content contactus"
-    "footer footer footer footer";
+    "logo menu menu"
+    "offer content contactus"
+    ". icons ."
+    "footer footer footer";
 }
 
 .logo {
@@ -40,3 +41,12 @@
 .footer {
   grid-area: footer;
 }
+
+.icons {
+  grid-area:icons;
+}
+
+
+
+
+

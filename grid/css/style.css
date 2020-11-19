@@ -97,7 +97,7 @@ body {
   height: 100%;
 }
 
-label, input, textarea {
+.form label, input, textarea {
   display: block;
   margin: .5rem;
 }
@@ -114,7 +114,7 @@ label, input, textarea {
   border-radius: 1rem;
 }
 
-input[type="text"], input[type="email"] {
+.form input[type="text"], input[type="email"] {
     border-width: 0;
     outline: none;
     border-bottom: 1px solid #8C764D;
@@ -123,7 +123,7 @@ input[type="text"], input[type="email"] {
 
 }
 
-input[type="submit"] {
+.form input[type="submit"] {
   margin-top: .5rem;
   font-weight:bold;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -136,3 +136,66 @@ input[type="submit"] {
   width: 100%;
   height:100%;
 }
+
+.footer { 
+  color: #F2F2F2;
+  background: #324759;
+  padding: 4em 0;
+  border-radius: 2rem;
+}
+
+.footer li { 
+  list-style-type: none; 
+  } 
+
+.footer a { 
+  text-decoration: none;
+  color:white;
+  } 
+
+.footer a:hover { 
+  text-decoration:underline;
+  } 
+
+ .facebook img, .twitter img, .instagram img {
+  width: 2rem;
+  height: 2rem;
+ }
+
+ .footer-logo img {
+  height: 6rem;
+ }
+
+ .footer p {
+  margin-left:0.5rem;
+ }
+
+  .footer input[type="text"], input[type="email"] {
+    border-width: 0;
+    outline: none;
+    border-bottom: 1px solid #8C764D;
+    background-color:#F2F2F2;
+}
+
+.footer input[type="submit"] {
+  font-weight:bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #8C764D;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+
+.newsletter-text, .text-input {
+ text-align: center; 
+ } 
+
+ .text-input input {
+  border-radius: .2rem;
+ } 
+
+
+
+
+
+

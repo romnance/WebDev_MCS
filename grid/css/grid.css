@@ -7,7 +7,7 @@
   grid-template-areas:
     "logo menu menu"
     "offer content contactus"
-    ". icons ."
+    "form content ."
     "footer footer footer";
 }
 
@@ -26,6 +26,10 @@
 .contact-pic {
   grid-area:offer ;
   align-self:start;
+}
+
+.form {
+  grid-area: form;
 }
 
 .content-area {
@@ -51,13 +55,12 @@
   grid-area: footer;
   display: grid;
   grid-template-columns: 7vw 1fr 7vw;
-  grid-template-rows: auto auto; 
 }
 
 .footer-container { 
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 3fr;
+  grid-template-columns: repeat(3,2fr) 3fr;
   grid-template-rows: auto auto;
   grid-template-areas: 
     "logo navigation secondary social"
@@ -112,6 +115,97 @@
 
 .contact-block, .newsletter {
  align-self: end; 
+}
+
+ /* resposive */
+
+@media all and (max-width: 992px) {
+  .container {
+    margin: 0 3rem;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3rem;
+    grid-template-areas:
+    "logo menu"
+    "offer content"
+    "form content"
+    "contactus content"
+    "footer footer";
+  }
+
+  .footer { 
+  grid-template-columns: 2vw 1fr 2vw; 
+  padding:2vw 0;
+}
+
+  .contacts {
+    justify-self:start;
+  }
+
+  .logo__link {
+  font-size: 2rem;
+  }
+
+  .footer-container {
+    grid-template-areas: 
+    "logo navigation secondary social"
+     "contact contact newsletter newsletter"; 
+  }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+    margin: 0 3rem;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "logo menu"
+    "content content"
+    "form offer"
+    "contactus offer"
+    "footer footer";
+  }
+
+}
+
+@media all and (max-width: 540px) {
+  .container {
+    margin: 0 1rem;
+    grid-template-columns:2fr;
+    grid-template-areas: 
+    "logo"
+    "menu"
+    "content"
+    "offer"
+    "form"
+    "contactus"
+    "footer"
+  }
+
+  html {
+  font-size: 12px;
+}
+
+.main-menu {
+  justify-self:start;
+}
+
+  .footer { 
+  grid-template-columns: 2vw 2fr 2vw; 
+  padding:2vw 6vw;
+}
+
+.footer-container {
+    grid-template-areas: 
+    "logo navigation"
+    "secondary social"
+     "contact contact"
+     "newsletter newsletter"; 
+  }
+
+  .footer-logo img {
+  height: 4rem;
+ }
+
 }
 
 

@@ -29,26 +29,23 @@ a {
     list-style-type: none;
    }
 
-.header{
-  display: flex;
-  align-items: center;
-  margin-left:4rem;
-}
 
 .name {
   font-family:Goldman;
   font-size: 5rem;
   line-height: 5rem;
+  margin-left:3rem;
 }
 
 .menu ul {
   display: flex;
   font-size: 3rem;
+  margin-right: 2rem;
 }
 
 .menuitem {
   font-family: Goldman;
-  margin-right: 4rem;
+  margin: 0 2rem;
 }
 
 .figure img {
@@ -68,8 +65,8 @@ h3{
   font-family: Goldman;
   font-weight: 400;
   font-size:2rem;
-  margin:0 5rem;
   text-align: right;
+  margin-right: 3rem;
 }
 
 h4{
@@ -129,14 +126,15 @@ p{
 }
 
 .spotifycontainer img {
-  max-width: 30rem;
-  margin: 0.5rem;
+  max-width:90%;
   transition: 0.4s ease-in-out;
+  margin: .5rem;
 }
 
 .spotifycontainer img:hover {
     padding-left: 1rem; 
     padding-right: 1rem;
+    width:87%;
 }
 
 .footer {

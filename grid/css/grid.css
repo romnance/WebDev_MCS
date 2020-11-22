@@ -190,20 +190,16 @@
 }
 
   .footer { 
-  grid-template-columns: 2vw 2fr 2vw; 
-  padding:2vw 6vw;
+  grid-template-columns: 2vw 1fr 2vw; 
+  padding:2vw 0;
 }
-
-.footer-container {
-    grid-template-areas: 
-    "logo navigation"
-    "secondary social"
-     "contact contact"
-     "newsletter newsletter"; 
-  }
 
   .footer-logo img {
   height: 4rem;
+ }
+
+ .footer p {
+  margin-left:0;
  }
 
 }
